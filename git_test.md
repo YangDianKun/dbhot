@@ -10,3 +10,10 @@
 
   
 
+## 第二章：Git版本回退
+
+```git reset --hard commit_id
+git reset --hard commit_id
+git 
+```
+

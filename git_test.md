@@ -129,7 +129,7 @@ git checkout 分支名称
 * 分支合并（可能产生冲突）
 
 ```
-git marge 要合并的分支
+git merge 要合并的分支
 
 注意：切换分支再合并
 ```
@@ -170,7 +170,7 @@ git branch -d 分支名称
 1. 切换到 dev 分支进行开发
 	git checkout dev
 2. 把 master 分支合并到dev分支（仅一次）
-	git mager master
+	git merge master
 3. 修改代码
 4. 提交代码
 	git add .
@@ -211,11 +211,11 @@ git branch -d 分支名称
 ```
 1. 将 dev 分支合并到 master分支，进行上线
 	git checkout master
-	git mager dev
+	git merge dev
 	git push origin master
 2. 把 dev 分支也推送到远程仓库
 	git checkout dev
-	git mager master
+	git merge master
 	git push origin dev
 ```
 

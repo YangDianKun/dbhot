@@ -250,3 +250,4 @@ git config --system user.emial "11"
 
 
 
+3.2 免密登录

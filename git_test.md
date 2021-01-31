@@ -221,3 +221,32 @@ git branch -d 分支名称
 
 
 
+## 第三章 其他
+
+### 3.1 配置
+
+* 项目配置文件：项目/.git/config
+
+```
+git config --local user.name "Ydk"
+git config --local user.emial "11"
+```
+
+* 全局配置文件：~/.gitconfig
+
+```
+git config --global user.name "Ydk"
+git config --global user.emial "11"
+```
+
+* 系统配置文件：/etc/.gitconfig
+
+```
+git config --system user.name "Ydk"
+git config --system user.emial "11"
+
+注意：需要有root权限
+```
+
+
+

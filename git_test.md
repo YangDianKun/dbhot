@@ -251,3 +251,24 @@ git config --system user.emial "11"
 
 
 3.2 免密登录
+
+
+
+## 第四章 问题及解决
+
+### 4.1 window系统与linux系统换行符冲
+
+* 配置2个参数
+
+```
+1. git config --system --unset core.autocrlf 
+2. git config --global core.autocrlf false 
+```
+
+* 恢复参数
+
+```
+1. git config --system core.autocrlf false 
+2. git config --global --replace-all core.autocrlf false 
+```
+
